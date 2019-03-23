@@ -1,0 +1,22 @@
+{
+  "name": "proto-news",
+  "version": "1.0.0",
+  "description": "Simple one page site displaying doggie news developed using html,css, node, npm and expressjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loki-one/doggie-news.git"
+  },
+  "author": "loki-one",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loki-one/doggie-news/issues"
+  },
+  "homepage": "https://github.com/loki-one/doggie-news#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
