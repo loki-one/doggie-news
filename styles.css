@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1.8em;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.subsection-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.article-title {
+    font-family: cursive;
+    text-align: center;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+.article-first {
+    width: 25%;
+}
+
+.article-second {
+    width: 50%;
+}
+
+.article-third {
+    width: 25%;
+}
+
+.article-fourth {
+    width: 25%;
+}
+
+.article-fifth {
+    width: 75%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-link-content {
+    height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 1.2em;
+}
+
+.article-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.article-link:hover {
+    text-decoration: underline;
+}
+
+.first-content {
+    background-color: bisque;
+}
+
+.second-content {
+    background-color: darkturquoise;
+}
+
+.third-content {
+    background-color: darkseagreen;
+}
+
+.fourth-content {
+    background-color: dodgerblue;
+}
+
+.fifth-content {
+    background-color: mediumpurple;
+}
